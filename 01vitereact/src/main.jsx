@@ -14,7 +14,7 @@ const anotherElement = (
   <a href ="https://www.google.com">Google</a>
 )
 
-const anotheruser = " hel  lo lets learn react"
+const anotheruser = " hello lets learn react"
 const reactElement = React.createElement(
   'a',
   {href: 'https://www.google.com'},
@@ -24,7 +24,7 @@ const reactElement = React.createElement(
 
 const root = ReactDOM.createRoot(document.getElementById('root'))
 root.render(
-  
+
 reactElement
 )
 
