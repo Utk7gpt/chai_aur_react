@@ -7,7 +7,7 @@ import './App.css'
 function App() {
 //  let counter = 5;
 
-let [counter,setCounter] = useState(0 );
+let [counter,setCounter] = useState(0);
  const addValue=()=>{
   console.log("Clicked ",counter);
   // counter = counter +1;
