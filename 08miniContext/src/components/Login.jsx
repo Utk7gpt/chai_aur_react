@@ -14,7 +14,7 @@ function Login() {
   return (
     <div>
         <h2>Login</h2>
-        <input type='text' 
+        <input type='text'  
         value={username}
         onChange={(e) => setUsername(e.target.value) }
         placeholder='username'  />
